@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide Template</title>
+
+    <link rel="icon" type="image/x-icon" href="img/site-logo.png">
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+                
+
+  </head>
+
+  <body>
+
+    <h1>Style Guide Template</h1>
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+
+    <nav>
+      
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>,
+        <a href="index.html">Portfolio</a>,
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button" href="#">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+        <h3>CSS selector:</h3>
+        <p>.in-text-link</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;View the project &lt;a class = "in-text-link" href = "#in_text_link"&gt;here.&lt;/a&gt;&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+
+        <p>View the project <a class = "in-text-link" href = "#in_text_link">here.</a></p>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+
+        <h4>Heading 1</h4>
+        <h4>CSS selector:</h4>
+        <p>h1</p>
+        <h4>Sample code:</h4>
+        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
+        <h4>Rendered Element:</h4>
+        <h1>Heading 1</h1>
+
+        <h4>Heading 2</h4>
+        <h4>CSS selector:</h4>
+        <p>h2</p>
+        <h4>Sample code:</h4>
+        <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
+        <h4>Rendered Element:</h4>
+        <h2>Heading 2</h2>
+
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        <h4>CSS selector:</h4>
+        <p>p</p>
+        <h4>Rendered Element:</h4>
+        <p>UX Was Here is an inclusive platform for individuals of all experience levels who are passionate about UX to connect and learn.  However, the main problem they face is the high turnover and low usage rate.  Therefore, our project set out to tackle these this issue by leveraging existing platform features, such as the explore and event discovery pages, with goals to foster long-term engagement and active participation.  This project was submitted for the 2024 Eunoia UX Design Jam.</p>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+        <h4>CSS selector:</h4>
+        <p>.menu</p>
+        <h4>Rendered Element:</h4>
+        <div class = "menu">
+          <ul>
+            <li class = "logo-item"><a class="button-nav" href="index.html"><img src="img/site-logo.png" alt="Logo with initials IL." width="30"></a></li>
+            <li><a class="button-nav" href="projects.html">Projects</a></li>
+            <li><a class="button-nav" href="about.html">About</a></li>
+            <li><a class="button-nav" href="contact.html">Contact</a></li>
+            <li><a class="button-nav" href = "https://drive.google.com/file/d/178QmvNv8iZW552TYQvbDWBPIrirCzliX/view?usp=sharing" download>Resume ↓</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Side Navigation</h2>
+        <h4>CSS selector:</h4>
+        <p>.side-menu</p>
+        <h4>Rendered Element:</h4>
+        <!-- commented so it doesn't cover styleguide -->
+        <!-- <div class = "side-menu">
+          <ul>
+            <li><a class="button-nav" href="#">Project Overview</a></li>
+            <li><a class="button-nav" href="#">Client Goals</a></li>
+            <li><a class="button-nav" href="#">Existing Features</a></li>
+          </ul>
+        </div> -->
+      </section>
+
+      <section>
+        <h2>Project Layout</h2>
+        <h4>CSS selector:</h4>
+        <p>.project-listing</p>
+        <h4>Rendered Element:</h4>
+          <div class ="project-listing">
+            <div class ="project-content">
+              <h2>UX Was Here</h2>
+              <p>Designed a mobile prototype for UX Was here to encourage introverts to attend events and expand their networks.</p>
+              <p>View the project <a class = "in-text-link" href = "#in_text_link">here.</a></p>
+            </div>
+            <div class = "project-img">
+              <img src="img/ux-was-here.png" alt="Mockups of a mobile app design for UX Was Here.">
+            </div>
+        </div>
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>

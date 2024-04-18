@@ -1,0 +1,472 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background-color: #fffcf0;
+}
+
+section:not([id]) {
+    margin: 1em 0;
+    padding: 0.5em 0;
+    border-top: 1px solid #333;
+}
+
+section h3 {
+    margin-bottom: 0;
+}
+
+section p {
+    margin-top: 0;
+}
+
+section code {
+    background-color: #EEE;
+    padding: 0.5em 0.75em;
+}
+
+h1 {
+    font-family: 'Satoshi', 'Helvetica', sans-serif;
+    color: #887391;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Satoshi', 'Helvetica', sans-serif;
+    color: #171717;
+    font-size: 1.5rem;
+}
+
+
+p {
+    margin-top: 0;
+    font-family: 'Satoshi', 'Inter', sans-serif;
+    color: #171717;
+    font-size: 1rem;
+    max-width: 50%;
+}
+
+.in-text-link {
+    transition: color 0.3s ease;
+    color: #171717;
+
+}
+
+/* referred to nav hover above */
+.in-text-link:hover,
+.in-text-link:focus {
+    color: #887391;
+}
+
+
+/* Styling for the navigation button */
+.button {
+    transition: color 0.3s ease;
+    color: #171717;
+    font-family: 'Satoshi', 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    color: #887391;
+}
+
+
+/* menu */
+
+.menu {
+    transition: color 0.3s ease;
+    color: #171717;
+    font-family: 'Satoshi', 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.menu ul {
+    margin-top: 0.5rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 4rem;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li.logo-item {
+    float: left;
+    margin-left: 3rem;
+    margin-right: -6rem;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: #171717;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: 'Satoshi', 'Inter', sans-serif;
+}
+
+.menu a:hover,
+.menu a:focus {
+    color: #887391;
+}
+
+/* vertical nav bar: https://www.w3schools.com/css/css_navbar_vertical.asp */
+
+.side-menu {
+    position: fixed;
+    top: 9rem;
+    left: 0;
+    width: 10rem;
+    margin-left: 3rem;
+}
+
+/* side menu */
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.side-menu ul li:last-child {
+    margin-right: 0;
+
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    color: #171717;
+    font-size: 0.9rem;
+    /* font-weight: 500; */
+    transition: color 0.3s ease;
+    font-family: 'Satoshi', 'Inter', sans-serif;
+}
+
+.side-menu a:hover,
+.side-menu a:focus {
+    color: #887391;
+}
+
+/* project listing */
+
+.project-listing {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* margin-left: 5rem; */
+    align-items: flex-end;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #887391;
+}
+
+.project-listing:last-child {
+    border-bottom: none;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+
+}
+
+
+.project-content {
+    align-self: flex-end;
+}
+
+.project-listing p {
+    /* width: 100%; */
+    width: 40vw;
+}
+
+.project-img img {
+    max-width: 100%;
+    width: 50vw;
+    height: auto;
+    /* transition: 0.3s ease; */
+    /* margin-right: 3rem; */
+}
+
+
+.project-listing-img img {
+    max-width: 100%;
+    width: 50vw;
+    height: auto;
+    transition: 0.3s ease;
+}
+
+/* scale and darken img on hover */
+.project-listing-img img:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
+}
+
+
+.main-content {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 5rem;
+}
+
+.bio {
+    margin-top: 2rem;
+    /* margin-left: 3rem;
+margin-right: 3rem; */
+    margin-bottom: 10rem;
+    /* border-top: 1px solid #887391; */
+    padding-top: 3rem;
+}
+
+.projects {
+    padding-top: 3rem;
+    border-top: 1px solid #887391;
+}
+
+.project-main-content {
+    margin-left: 18rem;
+    margin-right: 3rem;
+    margin-top: 5rem;
+}
+
+.project-main-content h2 {
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+
+.project-img {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+}
+
+.project-info-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.info-item {
+    flex: 2;
+}
+
+.bold-paragraph p {
+    font-weight: 500;
+}
+
+.about-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* gap: 10rem; */
+    margin-top: 5rem;
+}
+
+.info-item-about p {
+    width: 30vw;
+}
+
+
+.contact-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10rem;
+    margin-top: 5rem;
+}
+
+.contact-main p {
+    width: 20vw;
+}
+
+/* selection colour: https://www.w3schools.com/howto/howto_css_text_selection.asp*/
+::-moz-selection {
+    color: #FFFCF0;
+    background: #887391;
+}
+
+::selection {
+    color: #FFFCF0;
+    background: #887391;
+}
+
+
+/* change scrollbar colours https://css-tricks.com/almanac/properties/s/scrollbar/ */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #ECCBEA;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #887391;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ECCBEA;
+}
+
+footer {
+    margin-top: 5rem;
+    font-weight: 500;
+    border-top: 1px solid #887391;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+footer ul {
+    margin-top: 0.5rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 3rem; */
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #171717;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: 'Satoshi', 'Inter', sans-serif;
+}
+
+footer a:hover,
+.menu a:focus {
+    color: #887391;
+}
+
+/* responsive for mobile and tablet view using media queries */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .menu ul li {
+        margin-right: 1rem;
+    }
+
+    .main-content {
+        padding: 1rem;
+        /* flex-direction: column; */
+    }
+
+    p {
+        max-width: 100%;
+    }
+
+    .project-listing {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+        padding-bottom: 3rem;
+        border-bottom: 1px solid #887391;
+    }
+
+    .project-content {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        align-self: center;
+    }
+
+    .project-listing p {
+        width: 40vw;
+    }
+
+    .project-listing-img img {
+        width: 100vw;
+    }
+
+    .contact-main {
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 2rem;
+    }
+
+    .side-menu {
+        display: none;
+    }
+
+    .project-main-content {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 5rem;
+    }
+
+    .project-main-content h2 {
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+    }
+
+    .project-img {
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+
+    }
+
+    .project-img img {
+        width: 100vw;
+    }
+
+    .about-skills {
+        gap: 5rem;
+    }
+
+    footer {
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .menu ul li {
+        margin-right: 1rem;
+        display: block;
+    }
+
+    .main-content {
+        margin-top: 1rem;
+    }
+
+    .bio {
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+        padding-top: 0rem;
+    }
+
+}
